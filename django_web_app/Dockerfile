@@ -5,6 +5,8 @@ from python:latest
 WORKDIR /app
 
 
+
+
 copy requirements.txt requirements.txt
 
 run python3 -m pip install --upgrade pip
@@ -12,4 +14,4 @@ run python3 -m pip install --upgrade pip
 RUN pip3 install -r requirements.txt
 copy . .
 
-CMD [ "python3", "manage.py", "runserver" ]
+CMD [ "python3", "manage.py", "runserver" ,"0.0.0.0:80"]
