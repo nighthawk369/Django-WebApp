@@ -4,9 +4,6 @@ from python:latest
 
 WORKDIR /app
 
-
-
-
 copy requirements.txt requirements.txt
 
 run python3 -m pip install --upgrade pip
