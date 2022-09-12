@@ -14,7 +14,7 @@ pipeline {
 
 			steps {
 
-				echo 'this is build stage...'
+				echo 'this is testing stage...'
 			}
 		}
 
@@ -22,7 +22,7 @@ pipeline {
 
 			steps {
 
-				echo 'this is build stage...'
+				echo 'this is deploying stage...'
 			}
 		}
 
